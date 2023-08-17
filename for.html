@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        // 1
+        var name = "shahaf";
+        for(var i=0; i<10;i++){ 
+            console.log(name);
+        }
+        //2 
+        for(var i=0; i<100;i++){ 
+            console.log(i);
+        }
+        //3
+        var userText = prompt("give me text:");
+        for(var i=0; i<10;i++){ 
+            console.log(userText);
+        }
+        // 4
+
+        var userNum = +prompt("give me text:");
+        for(var i=0; i<userNum;i++){ 
+            console.log("Hello world");
+        }
+        //5
+        var userText = prompt("give me Name:");
+        var userNum = +prompt("give me text:");
+        for(var i=0; i<userNum;i++){ 
+            console.log("Hello world");
+        }
+        //6
+        var sum=0;
+        for(var i=0; i<5; i++){
+            sum= sum+ +prompt("give me a number")
+        }
+
+        console.log("sum", sum);
+        console.log("average",sum/5);
+`       */
+        //7
+        for( var i =2; i<=50;i+=2){
+            console.log(i);
+        }
+        //8
+        for( var i =1; i<=50;i+=3){
+            console.log(i);
+        }
+        //9
+        var userNumberStopper= +prompt("give a number");
+        var value=1
+        for(var i=2 ;i<=userNumberStopper;i++){
+            value= value*i
+        }
+        console.log("value of " ,userNumberStopper,":",value);
+
+
+
+        //10
+        for(var userText=""; userText!="STOP"; userText= prompt('give me text:')){
+            console.log(userText);
+        }
+
+        //14
+        for(var userName=""; !userName.startsWith("A"); userName=prompt("give me a Name")){}
+        
+        //15
+        for(var userName=""; !userName.startsWith("A")|| !userName.startsWith("a"); userName=prompt("give me a Name")){}
+
+        
+
+    </script>
+</body>
+</html>
